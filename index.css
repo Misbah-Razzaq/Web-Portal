@@ -1,122 +1,88 @@
-
-
-
-
-
-.navbar {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  color: white;
-  background-color: lightcoral;
-}
-
-.logo {
-  font-size: 20px;
-  font-weight: bolder;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  margin: 10px;
-}
-
-.nav-links a:hover {
-  text-decoration: underline;
-}
-
 .body {
-  display: flex;
   margin: 0;
   padding: 0;
-  font-family: poppins;
   box-sizing: border-box;
 }
 
-.wrapper {
-  background-color: lightpink;
+.container {
+  background-color: #5D47E9;
+  min-width: 100%;
+  padding: 20px 10%;
+
+}
+
+.container-box {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 50px;
+  max-width: 1200px;
+  margin-left: 80px;
+}
+.navbar-brand{
+  font-size: 27px;
+}
+
+.btn-custom {
+  background-color: #5D47E9;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: black;
+  color: white;
+
+}
+
+.navbar-nav {
+  background-color: rgb(244, 244, 244);
+  border-radius: 25px;
+  display: flex;
+}
+
+.nav-link {
+  color: rgb(46, 43, 43);
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  color: #5D47E9;
+}
+.container-fluid {
   text-align: center;
   padding: 50px;
   max-width: 2000px;
-  margin: 20px auto;
+  margin: 20px auto; 
   width: 90%;
-
-}
-.header {
-  text-align: center;
-  font-size: 21px;
-}
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  gap: 20px;
-  align-self: center;
-  margin: 10px 0;
-  font-size: 21px;
-}
-.flex-item {
-  flex: 1;
-  border: 1px solid;
-  margin: 2px;
-  padding: 100px;
   background-color: white;
-  transition: 0.3s;
-  border-radius: 25px;
-}
-.button{
-  background-color: lightcoral;
-  border-radius: 5px;
-  color: white;
-  padding:5px 12px;
-  border: 1px;
-  transition-duration: 0.5s;
-}
-
-.button:hover{
-  background-color:rgb(255, 204, 229);
-  text-decoration: underline;
-
-}
-@media(max-width :786px) {
-  .navbar {
-    flex-direction: column;
-    text-align: center;
-
-  }
-
-  .nav-links {
-    display: block;
-  }
-
-  .nav-links a {
-    display: block;
-  }
-}
-.footer{
-  display: flex;
-  padding: 20px 45px;
-  align-items: center;
-  justify-content: space-between;
-  color: white;
-  background-color: lightcoral;
-}
-.social-links{
-  word-spacing: 25px;
-
-}
-.button1{
-  background-color: rgb(65, 22, 221);
-  border-radius: 5px;
-  color: white;
-  padding:10px 15px;
-  border: 1px;
-  transition-duration: 0.5s;
-}
-.button1:hover{
-  background-color:rgb(179, 179, 241);
-  text-decoration: underline;
-}
+  color: black;
   
+}
+.header{
+  font-size: 65px;
+  padding: 20px;
+}
+.card{
+  border: 1px solid;
+
+  
+}
+.card-number{
+  background-color: rgb(228, 246, 255);
+}
+.card-title{
+  font-size: 28px;
+}
+.card-text{
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  font-size: 19px;
+
+}
+.card-body  img{
+  width: 250px;
+  height: 200px;
+
+}
