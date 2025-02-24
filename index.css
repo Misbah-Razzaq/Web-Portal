@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, sans-serif;
 }
 
 body {
   background-color: #5D47E9;
+  font-family: Arial, sans-serif;
 }
 
 .container {
@@ -52,6 +52,7 @@ body {
   font-weight: 500;
 }
 
+/* Hero Section */
 .hero-section {
   display: flex;
   align-items: center;
@@ -124,9 +125,11 @@ body {
 }
 
 .feature-card {
-  border: 1px solid #eee;
-  border-radius: 1rem;
+  border: 1px solid #000;
   overflow: hidden;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .feature-number {
