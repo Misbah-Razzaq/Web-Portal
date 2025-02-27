@@ -11,104 +11,166 @@
 
 <body>
     <section class="container">
-        <div class="container-box p-4">
+        <div class="container-box">
             <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
+                <div class="navbar-content">
                     <a class="navbar-brand fw-bold" href="#">LearnM5</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+                        <ul class="navbar-links">
+                            <li class="nav-link"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-link"><a class="nav-link" href="#">Features</a></li>
+                            <li class="nav-link"><a class="nav-link" href="#">Team</a></li>
+                            <li class="nav-link"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-link"><a class="nav-link" href="#">Contacts</a></li>
+                            <li class="nav-link"><a class="nav-link" href="#">Testimonials</a></li>
+                            <li class="nav-link"><a class="nav-link" href="#">Help</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <div class="row align-items-center mt-4">
-                <div class="col-md-6" style="text-align: left;">
-                    <h1  style="font-size: 65px;">Online Spanish Courses</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dolor eget imperdiet velit.
-                    </p>
-                    <p>Praesent imperdiet efficitur nunc, sed feugiat ligula rhoncus eget. Aliquam in odio sit amet
-                        ligula rhoncus lobortis nec ut hendrerit nulla.</p>
-                    <button class="btn btn-custom px-4 py-2">Get Started</button>
+
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1 class="hero-title">Online Spanish Courses</h1>
+                    <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dolor
+                        eget imperdiet velit.</p>
+                    <p class="hero-text">Praesent imperdiet efficitur nunc, sed feugiat ligula rhoncus eget. Aliquam in
+                        odio sit amet ligula rhoncus lobortis nec ut hendrerit nulla.</p>
+                    <a href="#" class="btn-primary">Get Started</a>
                 </div>
-                <div class="col-md-6">
-                    <img src="image.jpg" class="img-fluid rounded" style="width: 350px; height: 450px;">
+                <div class="hero-image">
+                    <img src="heroimage.jpg" alt="Spanish Course Image">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <h1 class="feature-title">Our Features</h1>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <span class="feature-number">1</span>
+                <h5 class="feature-heading">Modern teaching methods</h5>
+                <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum ut
+                    ante sed cursus. Nunc auctor pharetra ex rhoncus.</p>
+                <img src="features1.jpg" alt="Modern Teaching Methods">
+            </div>
+            <div class="feature-card">
+                <span class="feature-number">2</span>
+                <h5 class="feature-heading">Highly qualified teachers</h5>
+                <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum ut
+                    ante sed cursus. Nunc auctor pharetra ex rhoncus.</p>
+                <img src="features2.jpg" alt="Highly Qualified Teachers">
+            </div>
+            <div class="feature-card">
+                <span class="feature-number">3</span>
+                <h5 class="feature-heading">Free study schedule</h5>
+                <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum ut
+                    ante sed cursus. Nunc auctor pharetra ex rhoncus.</p>
+                <img src="features3.jpg" alt="Free Study Schedule">
+            </div>
+            <div class="feature-card">
+                <span class="feature-number">4</span>
+                <h5 class="feature-heading">Individual approach</h5>
+                <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum ut
+                    ante sed cursus. Nunc auctor pharetra ex rhoncus.</p>
+                <img src="features4.jpg" alt="Individual Approach">
+            </div>
+        </div>
+    </section>
+    <section class="column-section">
+        <div class="container-figure">
+            <div class="figure">
+                <svg class="svg-figure" xmlns="http://www.w3.org/2000/svg" width="224" height="211"
+                    viewBox="0 0 224 211" fill="none">
+                    <circle cx="101.23" cy="101.231" r="79" transform="rotate(19.9699 101.23 101.231)" fill="black">
+                    </circle>
+                    <path
+                        d="M162.277 181.045C163.518 185.512 158.536 189.116 154.681 186.54L128.633 169.134L153.892 150.859L162.277 181.045Z"
+                        fill="black"></path>
+                    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="4rem"
+                        font-weight="bold" fill="white">go!</text>
+                </svg>
+            </div>
+        </div>
+
+        <div class="column-grid">
+            <div class="column">
+                <span class="column-number">136</span>
+                <p class="column-text">Unique</p>
+                <p class="column-text">Courses</p>
+            </div>
+            <div class="column">
+                <span class="column-number">117</span>
+                <p class="column-text">Professional</p>
+                <p class="column-text">Teachers</p>
+            </div>
+            <div class="column">
+                <span class="column-number">734</span>
+                <p class="column-text">Happy</p>
+                <p class="column-text">Students</p>
+            </div>
+            <div class="column">
+                <span class="column-number">346</span>
+                <p class="column-text">Successful </p>
+                <p class="column-text">Graduates</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="card-section">
+        <div card="card-box">
+            <div class="card-grid">
+                <div>
+                    <h1 class="card-title">Our Services</h1>
+                </div>
+                <div class="card-services">
+                    <div class="card">
+                        <span class="card-number">01</span>
+                        <h5 class="card-heading">Modern teaching methods</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum
+                            ut
+                            ante sed cursus. Nunc auctor pharetra ex rhoncus.Vivamus tincidunt eros sed urna lobortis
+                            varius. Nam suscipt neque vextibulum.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-number">02</span>
+                        <h5 class="card-heading">Highly qualified teachers</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum
+                            ut
+                            ante sed cursus. Nunc auctor pharetra ex rhoncus.Vivamus tincidunt eros sed urna lobortis
+                            varius. Nam suscipt neque vextibulum.</p>
+                    </div>
+
+                    <div class="card">
+                        <span class="card-number">03</span>
+                        <h5 class="card-heading">Free study schedule</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum
+                            ut
+                            ante sed cursus. Nunc auctor pharetra ex rhoncus.Vivamus tincidunt eros sed urna lobortis
+                            varius. Nam suscipt neque vextibulum.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-number">04</span>
+                        <h5 class="card-heading">Individual approach</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum
+                            ut
+                            ante sed cursus. Nunc auctor pharetra ex rhoncus.Vivamus tincidunt eros sed urna lobortis
+                            varius. Nam suscipt neque vextibulum.</p>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
-    <section class="container-fluid">
-        <h1 class="header align-items-left">Our Features</h1>
-        <div class="row row-cols-1 row-cols-md-4 g-2">
-            <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-text" style="text-align: left;">
-                            <h6 class="card-number justify-content-left fw-bold">1</h6>
-                            <h5 class="card-title" >Modern teaching methods</h5>
-                            <p>Lorem ipsum dolor sit amet,consecteur adipicing elit. Aliquam fermentum ut
-                                ante sed cursus Nuncauctor pharetra ex rhoncus.</p>
-                        </div>
-                        <img src="features1.jpg" class="card-img-bottom">
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-text" style="text-align: left;">
-                            <h6 class="card-number">2</h6>
-                            <h5 class="card-title"> Highly qualified teachers</h5>
-                            <p>Lorem ipsum dolor sit amet,consecteur adipicing elit. Aliquam fermentum ut
-                                ante sed cursus Nuncauctor pharetra ex rhoncus.</p>
-                        </div>
-                        <img src="features2.jpg" class="card-img-bottom">
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-text" style="text-align: left;">
-                            <h6 class="card-number">3</h6>
-                            <h5 class="card-title"> Free study schedule</h5>
-                            <p>Lorem ipsum dolor sit amet,consecteur adipicing elit. Aliquam fermentum ut
-                                ante sed cursus Nuncauctor pharetra ex rhoncus.</p>
-                        </div>
-                        <img src="features3.jpg" class="card-img-bottom">
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-text" style="text-align: left;">
-                            <h6 class="card-number">4</h6>
-                            <h5 class="card-title">Individual approach</h5>
-                            <p>Lorem ipsum dolor sit amet,consecteur adipicing elit. Aliquam fermentum ut
-                                ante sed cursus Nuncauctor pharetra ex rhoncus.</p>
-                        </div>
-                        <img src="features4.jpg" class="card-img-bottom">
 
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <div style="margin-bottom: 500px;"></div>
 </body>
 
 </html>
