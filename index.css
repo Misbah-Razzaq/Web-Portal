@@ -16,7 +16,7 @@ body {
 }
 
 .container-box {
-  background-color: white;
+  background: white;
   border-radius: 2rem;
   max-width: 1300px;
   margin-left: 80px;
@@ -27,10 +27,6 @@ body {
 .navbar {
   padding: 0.5rem 0.5rem;
   margin-top: 20px;
-}
-
-.navbar-toggler {
-  margin-left: auto;
 }
 
 .navbar-content {
@@ -44,15 +40,7 @@ body {
 .navbar-toggler {
   border: none;
   font-size: medium;
-
 }
-
-.navbar-toggler:focus,
-.btn-close:focus {
-  box-shadow: none;
-  outline: none;
-}
-
 
 .navbar-brand {
   position: absolute;
@@ -64,7 +52,6 @@ body {
   text-align: left;
   justify-content: center;
   padding: 42px;
-
 }
 
 .navbar-links {
@@ -81,8 +68,6 @@ body {
 .navbar-links:hover {
   color: #5D47E9;
 }
-
-
 
 .nav-link {
   padding: 5px;
@@ -103,7 +88,7 @@ body {
   flex: 1;
   padding-right: 3rem;
   padding-left: 3rem;
-  }
+}
 
 .hero-title {
   font-size: 4rem;
@@ -137,9 +122,7 @@ body {
 .btn-primary:hover {
   background-color: #000;
   color: white;
-
 }
-
 
 .hero-image {
   flex: 1;
@@ -249,7 +232,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
   .hero-section {
     flex-direction: column;
     gap: 2rem;
@@ -258,8 +240,6 @@ body {
   .hero-content {
     padding-right: 0;
     text-align: center;
-
-
   }
 
   .hero-title {
@@ -278,20 +258,16 @@ body {
   .navbar {
     background-color: rgb(244, 244, 244);
     padding: 25px;
-
   }
 
   .container-box {
     padding-bottom: 65px;
-
   }
 
   .container {
     padding-bottom: 60px;
   }
-
 }
-
 
 .column-section {
   width: 100%;
@@ -309,167 +285,4 @@ body {
   width: 100%;
   height: 20vh;
   flex-direction: row wrap;
-
 }
-
-.figure {
-  text-align: center;
-}
-
-
-.svg-figure {
-  display: block;
-  margin: 0 auto;
-
-
-}
-
-.column-grid {
-  display: flex;
-  gap: 30px;
-  text-align: left;
-  padding: 10px;
-  margin: 5px auto;
-
-
-}
-
-.column {
-  padding: 20px;
-  padding-right: 180px;
-  background-color: #5D47E9;
-  border-radius: 25px;
-  color: white;
-  border: 1px solid;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1300px;
-}
-
-.column-number {
-  font-size: 4rem;
-  font-weight: bold;
-  color: white;
-
-}
-
-.column-text {
-  line-height: 1.3rem;
-  font-size: 21px;
-
-}
-
-@media (max-width: 768px) {
-  .figure{
-    font-size: 3px;
-  }
-
-  .column-grid {
-    flex-direction: column;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 3rem;
-
-  }
-  .column{
-    text-align: center;
-    width:90%;
-    height: 20%;
-    padding: 10px 10px;
-  }
-  .column-number{
-    font-size: 38px;
-    line-height: 5rem;
-  }
-  .column-text{
-    font-size: 20px;
-    line-height: 10px;
-  }
-}
-
-  .card-section {
-    background-color: white;
-    min-width: 100%;
-    padding: 30px 10%;
-    gap: 30px;
-  
-  }
-  
-  .card-box {
-    border-radius: 2rem;
-    margin-left: 50px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-  
-  }
-  
-  .card-title {
-    text-align: left;
-    font-size: 3.5rem;
-    font-weight: 600;
-    margin: 5px;
-  
-  
-  }
-  
-  .card-grid {
-    background-color: rgb(244, 244, 244);
-    align-items: left;
-    border-radius: 25px;
-    margin: 0 auto;
-    padding: 3rem;
-    margin-top: 1rem;
-    gap: 3rem;
-    padding-bottom: 2rem;
-  }
-  
-  .card-services {
-    column-count: 2;
-    padding: 5px;
-  
-  }
-  
-  .card {
-    text-align: left;
-    padding: 30px;
-    background-color: white;
-    border-radius: 25px;
-    border: 1px;
-    width: 100%;
-    line-height: 2rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-  
-  }
-  .card-number {
-    display: flex;
-    font-size: 21px;
-    font-weight: 600;
-    color: white;
-    background-color: black;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 37px;
-    border-radius: 44%;
-    padding: 0;
-    text-align: center;
-  
-  
-  }
-  
-  .card-heading {
-    font-size: 1.6rem;
-    font-weight: bold;
-    padding: 1.5rem 1rem 0.5rem;
-  }
-  
-  .card-text {
-    font-size: 1.2rem;
-    color: black;
-    padding: 0 1rem 1.5rem;
-    line-height: 2rem;
-  }
-  
